@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+  />
+  <title>Sinta Nur Wulan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/aos@next/dist/aos.css"
+  />
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+        <span>Sinta Nur Wulan</span>
+      </div>
+      <div class="links">
+        <div
+          class="link"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+        >
+          <a href="#" onclick="showSection('rumah')">Home</a>
+        </div>
+        <div
+          class="link"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <a href="#" onclick="showSection('tentang')">About</a>
+        </div>
+        <div
+          class="link"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
+          <a href="#" onclick="showSection('pengalaman')">Experience</a>
+        </div>
+        <div
+          class="link"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <a href="#" onclick="showSection('skill')">Skills</a>
+        </div>
+        <div
+          class="link"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <a href="#" onclick="showSection('sertifikat')">Certificate</a>
+        </div>
+        <div
+          class="link contact-btn"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        > 
+          <a href="#" onclick="showSection('kontak')">Contact Me</a>
+        </div>
+      </div>
+      <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+    <div class="dropdown">
+      <div class="links">
+        <a href="#" onclick="showSection('rumah')">Home</a>
+        <a href="#" onclick="showSection('tentang')">About</a>
+        <a href="#" onclick="showSection('skill')">Skills</a>
+        <a href="#" onclick="showSection('pengalaman')">Experience</a>
+        <a href="#" onclick="showSection('sertifikat')">Certificate</a>
+        <a href="#" onclick="showSection('kontak')">Contact Me</a>
+        <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+      </div>
+    </div>
+
+  </nav>
+  <section id="rumah">
+    <div class="main-container">
+      <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+        <img src="gw-removebg-preview.png" alt="Foto Sinta" />
+      </div>
+      <div class="content">
+        <h1 class="greeting">Halo <span>WELCOME</span></h1>
+        <div
+          class="typewriter"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="900"
+        >
+          In The Portfolio <span></span>
+        </div>
+        <p
+          data-aos="flip-up"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+        >
+          This portfolio is a place where I share my experiences, skills, and passion for continuous growth in the professional world. 
+        </p>
+        <div
+          class="social-links"
+          data-aos="flip-down"
+          data-aos-duration="1000"
+          data-aos-delay="1200"
+        >
+          <a href="https://www.instagram.com/s1ut4bea_"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/share/14HUjamkket/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/sinta-wulan/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://wa.me/6289523445473" target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+        </div>
+        <div
+          class="btn"
+          data-aos="zoom-out-left"
+          data-aos-duration="1000"
+          data-aos-delay="1300"
+        >
+          <a href="CV-SintaNurWulan.pdf" download class="download-btn">
+            <button>Dwonload CV</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tentang" style="display: none">
+    <div class="content" data-aos="fade-down" data-aos-duration="1000" style="text-align: center;">
+    
+    <!-- Judul -->
+    <h1 style="margin-bottom: 20px;">ABOUT ME</h1>
+    
+    <!-- Gambar ilustrasi -->
+    <div class="image" style="margin-bottom: 20px; display: flex; justify-content: center;">
+      <img 
+        src="saya2.png" 
+        alt="Foto saya" 
+        style="width: 250px; height: 250px; object-fit: cover; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.2);" 
+      />
+    </div>
+
+    <!-- Paragraf deskripsi -->
+    <p style="max-width: 600px; margin: 0 auto;">
+      I am a high school student at SMKN 1 Subang in West Java, majoring in Software Engineering and i graduated in mid-2024. During my time at school, I participated in various activities, one of which was a scholarship program organized by PT. Protonema in Jakarta.
+      While participating in this scholarship program, I was appointed as the attendance coordinator, responsible for managing the attendance of the students involved in the program. Throughout this experience, I gained a lot of valuable lessons and insights
+    </p>
+    
+    </div>
+  </section>
+  <section id="pengalaman">
+  <h1 style="margin-bottom: 20px;">Experience</h1>
+  <div class="experience-container">
+    
+    <div class="experience-card" data-aos="fade-up">
+      <img src="input data.png" alt="Input data petshop">
+      <h3>Data Input</h3>
+      <p>Input restaurant food and beverage data into Microsoft Excel.</p>
+    </div>
+
+    <div class="experience-card" data-aos="fade-up" data-aos-delay="100">
+      <img src="daftar absen.png" alt="Seksi Absensi Beasiswa">
+      <h3>Attendance Coordinator</h3>
+      <p>PT. Protonema Scholarship Program – Jakarta 
+        Responsible for tracking and recording student attendance.</p>
+    </div>
+
+    <div class="experience-card" data-aos="fade-up" data-aos-delay="200">
+      <img src="turudoeleo.png" alt="Ujian Akhir Aplikasi">
+      <h3>Hotel Booking Desktop Application</h3>
+      <p>As part of my final school examination, I developed a simple desktop transaction application named "Turu Doeloe Hotel Booking" to demonstrate the practical application of my Software Engineering studies.</p>
+    </div>
+
+    <div class="experience-card" data-aos="fade-up" data-aos-delay="300">
+      <img src="peserta.jpg" alt="Peserta Beasiswa">
+      <h3>Scholarship Recipient</h3>
+      <p>Received a scholarship and actively participated in the calligraphy extracurricular program during high school.</p>
+    </div>
+
+  </div>
+</section>
+  <section id="skill" style="display: none">
+    <div class="content" data-aos="fade-up" data-aos-duration="1000" style="text-align: center;">
+      <h1 style="margin-bottom: 20px;">MY SKILLS</h1>
+
+      <!-- Container skill -->
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 700px; margin: 0 auto;">
+        
+        <!-- Skill Box -->
+        <div style="background-color: white; border: 2px solid rgb(109,67,0); border-radius: 10px; padding: 15px 25px; box-shadow: 0 0 10px rgba(0,0,0,0.1); min-width: 120px;">
+          Microsoft Office
+        </div>
+
+        <div style="background-color: white; border: 2px solid rgb(109,67,0); border-radius: 10px; padding: 15px 25px; box-shadow: 0 0 10px rgba(0,0,0,0.1); min-width: 120px;">
+          Data Input
+        </div>
+
+        <div style="background-color: white; border: 2px solid rgb(109,67,0); border-radius: 10px; padding: 15px 25px; box-shadow: 0 0 10px rgba(0,0,0,0.1); min-width: 120px;">
+          Basic Web Programming
+        </div>
+
+        <div style="background-color: white; border: 2px solid rgb(109,67,0); border-radius: 10px; padding: 15px 25px; box-shadow: 0 0 10px rgba(0,0,0,0.1); min-width: 120px;">
+          Canva / Basic Design
+        </div>
+
+        <div style="background-color: white; border: 2px solid rgb(109,67,0); border-radius: 10px; padding: 15px 25px; box-shadow: 0 0 10px rgba(0,0,0,0.1); min-width: 120px;">
+          Communication
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="sertifikat"style="display: none;">
+  <h1 style="margin-bottom: 20px;">Certificate</h1>
+  <div class="experience-container">
+    
+    <div class="experience-card" data-aos="fade-up">
+      <img src="sertifikat beasiswa.jpg" alt="Input data petshop">
+      <h3>Protonema Scholarship Certificate</h3>
+      <p>Awarded a scholarship certificate in recognition of commitment and academic performance throughout participation in the Scholarship Program from 2022 to 2023.</p>
+    </div>
+
+    <div class="experience-card" data-aos="fade-up" data-aos-delay="100">
+      <img src="sertifikat ujian akhir.jpg" alt="Seksi Absensi Beasiswa">
+      <h3>Final Examination Certificate</h3>
+      <p>Awarded a Final Examination Certificate as evidence of graduation and successful completion of a desktop application project aligned with the Software Engineering program.</p>
+    </div>
+
+    <div class="experience-card" data-aos="fade-up" data-aos-delay="200">
+      <img src="sertifikat dicoding.png" alt="Ujian Akhir Aplikasi">
+      <h3>Dicoding Certificate</h3>
+      <p>Completed as part of self-learning to improve front-end development skills.</p>
+    </div>
+
+    <div class="experience-card" data-aos="fade-up" data-aos-delay="300">
+      <img src="sertifikat future.png" alt="Peserta Beasiswa">
+      <h3>Future Certificate</h3>
+      <p>Participated in a training program focused on improving digital data management and record-keeping skills.</p>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Halaman Kontak -->
+  <section id="kontak" style="display: none; padding-top: 100px;">
+    <h1>Contact Me:</h1>
+    <div class="social-links">
+      <a href="https://www.instagram.com/s1ut4bea_"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+      <a href="https://www.facebook.com/share/14HUjamkket/"
+        ><i class="fa-brands fa-facebook"></i
+      ></a>
+      <a href="https://www.linkedin.com/in/sinta-wulan/"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a href="https://wa.me/6289523445473" target="_blank"
+        ><i class="fa-brands fa-whatsapp"></i
+      ></a>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ offset: 0 });
+
+    function hamburg() {
+      const navbar = document.querySelector(".dropdown");
+      navbar.style.transform = "translateY(0px)";
+    }
+
+    function cancel() {
+      const navbar = document.querySelector(".dropdown");
+      navbar.style.transform = "translateY(-500px)";
+    }
+
+    function showSection(id) {
+      const sections = document.querySelectorAll("body > section");
+      sections.forEach((section) => {
+        section.style.display = "none";
+      });
+
+      const selected = document.getElementById(id);
+      if (selected) selected.style.display = "block";
+      window.scrollTo({ top: 0, behavior: "smooth" });
+
+      
+
+      AOS.refresh();
+      
+      cancel();
+    }
+  </script>
+</body>
+</html>
